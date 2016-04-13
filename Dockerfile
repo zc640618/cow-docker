@@ -9,6 +9,7 @@ RUN apt-get update && \
 
 RUN curl -L git.io/cow | bash 
 
+ENV COW_SERVER_ADDR 0.0.0.0
 ENV COW_SERVER_PORT 7777
 ENV SS_SERVER_ADDR 0.0.0.0
 ENV SS_SERVER_PORT 8388
