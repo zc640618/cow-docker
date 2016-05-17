@@ -1,4 +1,4 @@
-echo "listen = http://127.0.0.1:7777 $PAC_SERVER_ADDR:$PAC_SERVER_PORT \nproxy = ss://$SS_METHOD:$SS_PASSWORD@$SS_SERVER_ADDR:$SS_SERVER_PORT" > rc
+echo "listen = $COW_SERVER_ADDR:$COW_SERVER_PORT $PAC_SERVER_ADDR:$PAC_SERVER_PORT \nproxy = ss://$SS_METHOD:$SS_PASSWORD@$SS_SERVER_ADDR:$SS_SERVER_PORT" > rc
 echo "========================================================================"
 echo " You can now connect to this Cow server:"
 echo ""
